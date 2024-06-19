@@ -1,0 +1,111 @@
+Welcome to Connect Four
+Player1 plays first with symbol X
+Player2 plays next with symbol O
+
+
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+
+Player Player1 (X) has 0 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+
+Player Player2 (O) has 0 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 1 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 1 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 2 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 2 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+
+Player1 wins!
+
+              Wins    Losses    Draws
+Player1:        1       0       0
+Player2:        0       1       0
+
+Would you like to play again (y/n)? Unrecognized response Boo, please enter y or n.
+
+Would you like to play again (y/n)? 
+
+Thank you for playing today.  Good bye!

@@ -1,0 +1,21 @@
+Welcome to Connect Five
+Player1 plays first with symbol X
+Player2 plays next with symbol O
+
+
+ 1 2 3 4 5 6 7 8 910
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|_|_|
+
+Player Player1 (X) has 0 connected pieces.
+Enter the column to place your X piece (1 to 10) or q to quit: 
+
+Thank you for playing today.  Good bye!

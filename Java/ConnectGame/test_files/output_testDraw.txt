@@ -1,0 +1,793 @@
+Welcome to Connect Four
+Player1 plays first with symbol X
+Player2 plays next with symbol O
+
+
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+
+Player Player1 (X) has 0 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+
+Player Player2 (O) has 0 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 1 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 1 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 2 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 2 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|_|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|_|_|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|X|_|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|_|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|_|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|X|_|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|X|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|X|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|_|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|_|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|_|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|_|_|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|X|_|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|_|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|_|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|X|_|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|X|_|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|X|_|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|_|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|_|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|_|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|_|_|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|X|_|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|_|_|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|_|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|X|_|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|X|_|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|X|_|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|_|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|_|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|_|X|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|_|_|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|X|_|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|_|_|
+|X|O|X|O|X|O|X|O|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player1 (X) has 3 connected pieces.
+Enter the column to place your X piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|X|_|
+|X|O|X|O|X|O|X|O|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+Player Player2 (O) has 3 connected pieces.
+Enter the column to place your O piece (1 to 8) or q to quit: 
+ 1 2 3 4 5 6 7 8
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|O|X|O|X|O|X|O|X|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+|X|O|X|O|X|O|X|O|
+
+
+It's a draw!
+
+              Wins    Losses    Draws
+Player1:        0       0       1
+Player2:        0       0       1
+
+Would you like to play again (y/n)? 
+
+Thank you for playing today.  Good bye!
