@@ -40,9 +40,9 @@ public class KataQuiz {
 	}
 
 	public static String fetchTriviaQuestions() throws IOException, URISyntaxException {
-		String urlTest = "https://opentdb.com/api.php?amount=1&category=9&difficulty=easy&type=multiple";
+		String urlQuiz = "https://opentdb.com/api.php?amount=1&category=9&difficulty=easy&type=multiple";
 
-		URI uri = new URI(urlTest);
+		URI uri = new URI(urlQuiz);
 		URL url = uri.toURL();
 		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 		connection.setRequestMethod("GET");
