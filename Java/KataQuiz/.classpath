@@ -17,7 +17,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/GitHub/Development/KataQuiz/lib/gson-2.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/GitHub/Development/KataQuiz/lib/junit-platform-console-standalone-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/GitHub/Java/KataWeather/lib/gson-2.11.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
