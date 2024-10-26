@@ -1,0 +1,8 @@
+*1,Closed,Hired,Summary,Reviewer 4,true,OfferCompleted
+-[Review] Note 1
+-[Waitlist] Note 2
+-[Review] Note 3
+-[Interview] Note 4
+-[RefCheck] Note 5
+-[Offer] Note 6
+-[Closed] Note 7

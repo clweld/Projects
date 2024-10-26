@@ -1,0 +1,128 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>621</x><y>378</y><w>180</w><h>171</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+State
+--
+--
+/+accept(): void/
+/+reject(): void/
+/+other(): void/
+/+cancel(): void/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>54</x><y>342</y><w>315</w><h>288</h></coordinates><panel_attributes>ApplicationManager
+--
+-fileName: String
+-summaryInput: String
+-reviewerInput: String
+-processedInput: boolean
+-noteInput: String
+--
++ApplicationManager()
++getApplicationFromList(id:int): Application
++getAllApplications(): String[][]
++getNewApplications(): String[][]
++getOldApplications(): String[][]
++resetApplicationList(): void
++loadApplicationsFromFile(fileName String): void
++saveApplicationsToFile(fileName:String): void
++addApplication(id:int, state:String, type:String, 
+        summary:String, reviewer:String, processed:boolean, 
+        resolution:String, notes:ArrayList&lt;String&gt;): boolean
++removeApplication(id:int): boolean
++editApplication(summaryInput:String, reviewerInput:String, 
+        processedInput:boolean, noteInput:String): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>54</x><y>0</y><w>306</w><h>279</h></coordinates><panel_attributes>Application
+--
+-id: int
+-state: String
+-type: String
+-summary: String
+-reviewer: String
+-processed: boolean
+-resolution: String
+-notes: ArrayList&lt;String&gt;
+--
++Application(id:int, state:String, type:String, 
+        summary:String, reviewer:String, processed:boolean, 
+        resolution:String, notes:ArrayList&lt;String&gt;)
+-setId(id:int): void
++getApplicationArray(): String[]
++getNotesArray(): String[]
++compareTo(application: Application): int
++hashCode(): int
++equals(o:Object): boolean
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>270</y><w>45</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..*
+list</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>108</x><y>684</y><w>189</w><h>45</h></coordinates><panel_attributes>ApplicationManagerGUI
+--
+--
+_+main(args:String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>621</y><w>72</w><h>81</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1
+manager</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>72</y><w>450</w><h>63</h></coordinates><panel_attributes>ApplicationRecordIO
+--
+--
+_+readApplicationRecords(fileName: String): SortedList&lt;Application&gt;_
+_+writeApplicationRecords(fileName: String, applications:SortedList&lt;Application&gt;): void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>162</y><w>270</w><h>171</h></coordinates><panel_attributes>Review
+--
+-RESOLUTION: String =
+         "ReviewCompleted"
+--
++accept(reviewerInput:String, noteInput:String): void
++reject(RESOLUTION:String, noteInput:String): void
++other(RESOLUTION:String, noteInput:String): void
++cancel(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>378</x><y>594</y><w>270</w><h>171</h></coordinates><panel_attributes>RefCheck
+--
+-RESOLUTION: String =
+         "RefCheckCompleted"
+--
++accept(reviewerInput:String, 
+        processedInput:boolean, RESOLUTION:String,
+        noteInput:String): void
++reject(RESOLUTION:String, noteInput:String): void
++other(): void
++cancel(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>162</y><w>288</w><h>171</h></coordinates><panel_attributes>Interview
+--
+-RESOLUTION: String =
+         "InterviewCompleted"
+--
++accept(reviewerInput:String, processedInput:boolean,
+        noteInput:String): void
++reject(RESOLUTION:String, 
+        noteInput:String): void
++other(RESOLUTION:String,
+        noteInput:String): void
++cancel(): void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>954</x><y>594</y><w>180</w><h>171</h></coordinates><panel_attributes>Closed
+--
+--
++accept(note:String): void
++reject(note:String): void
++other(): void
++cancel(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>981</x><y>162</y><w>162</w><h>171</h></coordinates><panel_attributes>Waitlist
+--
+--
++accept(reviewerInput:String, 
+        processedInput:boolean, 
+        noteInput:String): void
++reject(): void
++other(note:String): void
++cancel(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>594</y><w>288</w><h>171</h></coordinates><panel_attributes>Offer
+--
+-RESOLUTION: String =
+         "OfferCompleted"
+--
++accept(reviewerInput:String, processedInput:boolean,
+        RESOLUTION:String, noteInput:String): void
++reject(RESOLUTION:String, noteInput:String): void
++other(): void
++cancel(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>369</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+state</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>396</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+review</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>423</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+interview</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>450</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+waitlist</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>477</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+refCheck</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>504</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+offer</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>531</y><w>279</w><h>36</h></coordinates><panel_attributes>lt=&lt;-
+closed</panel_attributes><additional_attributes>290;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>702</x><y>324</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>477</x><y>324</y><w>207</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40;210;40;210;60</additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>540</y><w>198</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;60;10;30;200;30;200;10</additional_attributes></element><element><id>Relation</id><coordinates><x>747</x><y>540</y><w>315</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>330;60;330;30;10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>747</x><y>324</y><w>324</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>340;10;340;40;10;40;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>702</x><y>540</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element></diagram>
