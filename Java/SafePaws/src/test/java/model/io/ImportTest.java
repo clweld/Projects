@@ -1,10 +1,10 @@
-package safe_paws.model.patient;
+package model.io;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class PatientTest {
+class ImportTest {
 
 	@Test
 	void test() {
